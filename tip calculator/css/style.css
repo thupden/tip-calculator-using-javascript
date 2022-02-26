@@ -1,0 +1,95 @@
+body{
+    font-family: Roboto;
+    background-color: #8E0E00;
+    background: linear-gradient(to left, #8E0E00, #1F1C18);
+}
+.container{
+    width:30%;
+    margin: 10% auto;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+}
+h1{
+    text-align:center;
+    background-color: #1F030C;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+label{
+    padding-left: 20px;
+    font-size: 20px;
+}
+p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+form input[type="text"]{
+    width: 80%;
+}
+#billamt{
+    font-size: 14px;
+    color: black;
+    background-color: #f7f7f7;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+}
+#no-of-people{
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: black;
+    background-color: #f7f7f7;
+    font-size: 14px;
+}
+#service{
+    padding: 13px 13px 20px 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#button{
+    display: block;
+    font-weight: bold;
+    margin: 30px auto;
+    background-color: #AD133A;
+    border-radius: 5px;
+    width: 60%;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+#button:hover{
+    background: #4c2827;
+    border-bottom-color: #111;
+}
+#totalTip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 20px;
+}
+#totalTip:before{
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+@media only screen and (max-width:1200px){
+    .container{
+        width: 50%;
+    }
+}
